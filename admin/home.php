@@ -11,7 +11,7 @@
 <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
     <div class="info-box">
-      <span class="info-box-icon bg-gradient-primary elevation-1"><i class="fas fa-id-card"></i></span>
+      <span class="info-box-icon bg-gradient-dark elevation-1"><i class="fas fa-id-card"></i></span>
       <div class="info-box-content">
         <span class="info-box-text">Tax Payers Registered in the kebele</span>
         <span class="info-box-number">
@@ -29,7 +29,7 @@
   <!-- /.col -->
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
     <div class="info-box">
-      <span class="info-box-icon bg-gradient-light elevation-1"><i class="fas fa-credit-card"></i></span>
+      <span class="info-box-icon bg-gradient-dark elevation-1"><i class="fas fa-credit-card"></i></span>
       <div class="info-box-content">
         <span class="info-box-text">Total tax payers paid</span>
         <span class="info-box-number">
@@ -47,7 +47,7 @@
   <!-- /.col -->
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
     <div class="info-box">
-      <span class="info-box-icon bg-gradient-secondary elevation-1"><i class="fas fa-money-bill"></i></span>
+      <span class="info-box-icon bg-gradient-dark elevation-1"><i class="fas fa-money-bill"></i></span>
       <div class="info-box-content">
         <span class="info-box-text">Amount of Tax Collected so far</span>
         <span class="info-box-number">

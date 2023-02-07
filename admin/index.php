@@ -78,7 +78,7 @@
     <div class="modal-dialog modal-md" role="document">
       <div class="modal-content">
               <button type="button" class="btn-close" data-dismiss="modal"><span class="fa fa-times"></span></button>
-              <img src="" alt="">
+              <!-- <img src="" alt=""> -->
       </div>
     </div>
   </div>

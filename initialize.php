@@ -1,7 +1,7 @@
 <?php
 //$dev_data = array('id'=>'-1','firstname'=>'Developer','lastname'=>'','username'=>'','password'=>'5da283a2d990e8d8512cf967df5bc0d0','last_login'=>'','date_updated'=>'','date_added'=>'');
 if(!defined('base_url')) define('base_url','http://localhost/tms/');
-//if(!defined('base_url')) define('base_url','https://0bc1-196-189-243-93.ngrok.io/tms/');
+//if(!defined('base_url')) define('base_url','https://c81f-196-189-243-80.ngrok.io/tms/');
 if(!defined('base_app')) define('base_app', str_replace('\\','/',__DIR__).'/' );
 // if(!defined('dev_data')) define('dev_data',$dev_data);
 if(!defined('DB_SERVER')) define('DB_SERVER',"localhost");

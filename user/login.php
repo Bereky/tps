@@ -57,7 +57,7 @@
             <button type="submit" class="btn btn-primary btn-block">Sign In</button>
           </div>
           <div class="col-12 text-center">
-            <a href="<?= base_url ?>">Go to Website</a>
+            <!-- <a href="<?= base_url ?>">Go to Website</a> -->
           </div>
           <!-- /.col -->
         </div>

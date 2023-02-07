@@ -8,7 +8,7 @@
   </script>
   <style>
     body{
-      background-image: url("<?php echo validate_image($_settings->info('cover')) ?>");
+      /* background-image: url("<?php echo validate_image($_settings->info('cover')) ?>"); */
       background-size:cover;
       background-repeat:no-repeat;
       backdrop-filter: contrast(1);
@@ -45,7 +45,7 @@
         </div>
         <div class="row">
           <div class="col-8">
-            <a href="<?php echo base_url ?>">Go to Website</a>
+            <!-- <a href="<?php echo base_url ?>">Go to Website</a> -->
           </div>
           <!-- /.col -->
           <div class="col-4">
