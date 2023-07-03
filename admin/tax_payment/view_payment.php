@@ -47,7 +47,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 						<div class="col-4 border py-2 m-0 font-weight-bolder text-muted">Annual Revenue</div>
 						<div class="col-8 border py-2 m-0 font-weight-bolder"><?= isset($revenue) ? number_format($revenue,2) : "" ?></div>
 						<div class="col-4 border py-2 m-0 font-weight-bolder text-muted">Income Tax</div>
-						<div class="col-8 border py-2 m-0 font-weight-bolder"><?= isset($tax_amount) ? number_format($tax_amount,2) : '0.00' ?></div>
+						<div class="col-8 border py-2 m-0 font-weight-bolder"><?= isset($income_tax) ? number_format($income_tax,2) : '0.00' ?></div>
 						<div class="col-4 border py-2 m-0 font-weight-bolder text-muted">Extra Payment</div>
 						<div class="col-8 border py-2 m-0 font-weight-bolder"><?= isset($extra_payment) ? number_format($extra_payment,2) : '0.00' ?></div>
 						<div class="col-4 border py-2 m-0 font-weight-bolder text-muted">Tax Penalty</div>

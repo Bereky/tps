@@ -107,7 +107,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 		$('#pass-form').submit(function(e){
 			e.preventDefault();
             var _this = $(this)
-			 $('.err-msg').remove();
+			$('.err-msg').remove();
 			start_loader();
 			$.ajax({
 				url:_base_url_+"classes/Master.php?f=save_pass",

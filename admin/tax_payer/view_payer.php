@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_GET['id']) && $_GET['id'] > 0){
+if(isset($_GET['id']) ){
     $qry = $conn->query("SELECT p.* from `tax_payer_list` p where p.id = '{$_GET['id']}'");
     if($qry->num_rows > 0){
         foreach($qry->fetch_assoc() as $k => $v){

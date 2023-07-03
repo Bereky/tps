@@ -13,6 +13,7 @@
       background-repeat:no-repeat;
       backdrop-filter: contrast(1);
     }
+    
     #page-title{
       text-shadow: 6px 4px 7px black;
       font-size: 3.5em;

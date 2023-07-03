@@ -207,16 +207,9 @@ Class Master extends DBConnection {
 			$_POST['user_id'] = $this->settings->userdata('id');
 			$prefix = date('Ymd');
 			$code = sprintf("%'.04d",1);
-			while(true){
-				$check = $this->conn->query("SELECT * FROM `tax_payer_list` where `code` = '{$prefix}-{$code}' ")->num_rows;
-				if($check > 0){
-						$code = sprintf("%'.04d",ceil($code) + 1);
-				}else{
+			
 					$_POST['code'] = $prefix."-".$code;
 					$_POST['company_registration'] = $prefix.$code;
-					break;
-				}
-			}
 		}
 		extract($_POST);
 		$data = "";
