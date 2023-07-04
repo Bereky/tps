@@ -205,11 +205,9 @@ Class Master extends DBConnection {
 	function save_pass(){
 		if(empty($_POST['id'])){
 			$_POST['user_id'] = $this->settings->userdata('id');
-			$prefix = date('Ymd');
-			$code = sprintf("%'.04d",1);
-			
-					$_POST['code'] = $prefix."-".$code;
-					$_POST['company_registration'] = $prefix.$code;
+			$prefix = date('YmdHis');
+			$_POST['code'] = $prefix;
+			$_POST['company_registration'] = $prefix;
 		}
 		extract($_POST);
 		$data = "";
@@ -220,6 +218,7 @@ Class Master extends DBConnection {
 				$data .= " `{$k}`='{$v}' ";
 			}
 		}
+		
 		if(empty($id)){
 			$sql = "INSERT INTO `tax_payer_list` set {$data} ";
 		}else{

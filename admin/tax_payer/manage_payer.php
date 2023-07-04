@@ -26,7 +26,6 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 				<div class="container-fluid">
 					<div class="container-fluid">
 						<form action="" id="pass-form">
-							<input type="hidden" name ="company_registration" value="<?php echo isset($id) ? $id : '' ?>">
 							
 							<div class="form-group mb-3">
 								<label for="owner" class="control-label">Full Name</label>
